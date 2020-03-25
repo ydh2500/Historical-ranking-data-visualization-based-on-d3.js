@@ -6,7 +6,7 @@
   // Encoding is not recommended to be modified.
   // Instead, it is recommended to copy the contents of the CSV file produced by yourself to example.csv.
   // The encoding format of example.csv is supported by all languages.
-  encoding: "UTF-8",
+  encoding: "EUC-KR",
 
   // 每个时间节点最多显示的条目数。
   max_number: 20,
@@ -24,7 +24,7 @@
   auto_sort: false,
 
   // 时间格式化
-  timeFormat: "%Y-%m-%d",
+  timeFormat: "%Y",
 
   // 倒序，使得最短的条位于最上方
   reverse: false,
@@ -53,17 +53,17 @@
 
   // 附加信息内容。
   // left label
-  itemLabel: "左侧文字",
+  itemLabel: "1위국가",
 
   // right label
-  typeLabel: "右侧文字",
+  typeLabel: "쓰나미로 인한 사망자 수",
 
   // 榜首项目信息的水平位置 。
   // Top item information horizontal location
   item_x: 250,
 
   // 时间点间隔时间。
-  interval_time: 1,
+  interval_time: 0.5,
 
   // 上方文字水平高度。
   text_y: -50,
